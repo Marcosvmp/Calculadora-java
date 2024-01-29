@@ -6,9 +6,13 @@ public class Calculadora {
 	String operador;
 	double v2;
 
-//	Calculadora(int v1, String operador, double v2) {
-//
-//	}
+	Calculadora(int v1, String operador, double v2) {
+
+	}
+	
+	Calculadora(){
+		
+	}
 
 	double somar() {
 		return v1 + v2;
